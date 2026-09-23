@@ -1,0 +1,6 @@
+{
+  "name": "CrediFácil - Control de Créditos y Recibos",
+  "description": "Control de clientes al crédito, abonos automáticos, recibos digitales personalizables con envío por WhatsApp y dictado por voz para facturas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

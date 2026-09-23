@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-mono-receipt {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Receipt jagged edge simulation */
+.receipt-jagged-bottom {
+  background-image: radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+  background-size: 20px 20px;
+  background-repeat: repeat-x;
+}
+
+.receipt-jagged-top {
+  background-image: radial-gradient(circle at 10px 15px, transparent 12px, white 13px);
+  background-size: 20px 20px;
+  background-repeat: repeat-x;
+}
+
+/* Hide scrollbar for tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
